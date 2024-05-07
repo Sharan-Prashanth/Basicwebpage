@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    background-color:black;
+    color:aqua;
+    padding:15px;
+    
+}
+li,h1,ul{
+    display:inline-block;
+  
+}
+ul{
+    margin-left: 900px;
+    word-spacing:10px;
+    padding:10px;
+    word-spacing: 10px;
+}
+li:hover{
+    color:azure;
+    cursor:pointer;
+}
+input{
+    padding:10px;
+    margin:10px;
+    width: 60px;
+    padding-left: 450px;
+
+}
+.searcher{
+    padding:15px;
+    width: 10px;
+    text-align:center;
+    
+   
+}
+.products{
+    display:inline;
+    text-align:center;
+
+}
+.box{
+    border-color:rgb(240, 142, 240);
+    border-style:groove;
+    box-shadow: 10px 5px 10px 10px rgb(80, 100, 107);
+    display:inline-block;
+    width:220px ;
+    padding:10px;
+    margin:10px;
+    text-align: center;
+
+
+}
+img:hover{
+    box-shadow: 5px 5px 5px 5px rgb(238, 11, 86);
+    image-rendering: optimizeQuality;
+    image-resolution:initial ;
+}
+.about{
+    margin-top: 15px;
+    padding:15px;
+    font-family: monospace;
+}
+.contact{
+    background-color: black;
+    color:aliceblue;
+    padding:40px;
+
+}
+button{
+    text-align: center;
+    margin: 20px;
+}
+button:hover{
+    background-color: black;
+    color:beige;
+    box-shadow: 5px 3px 3px 1px lightgreen;
+}
+form input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 180px;
+    background: #f1f1f1;
+    display: inline-block;
+    margin-right: 60px;
+  }
+  
+  form button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #0b7dda;
+  }
+  
+  form::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
